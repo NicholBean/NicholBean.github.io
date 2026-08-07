@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicholas Bean - CS 499 ePortfolio</title>
 </head>
+
 <body>
-    
+
+    <!-- Welcome Section -->
+
     <h1>Welcome to my CS 499 ePortfolio!</h1>
 
     <p>
@@ -15,6 +18,8 @@
     </p>
 
     <hr>
+
+    <!-- Code Review -->
 
     <h2>Code Review</h2>
 
@@ -30,6 +35,272 @@
         height="450"
         allow="autoplay">
     </iframe>
+
+    <hr>
+
+    <!-- Artifact One -->
+
+    <h2>Artifact One - Contact Service</h2>
+
+    <p>
+        <a href="ContactService.zip" download>
+            Download Contact Service Artifact
+        </a>
+    </p>
+
+    <h3>Artifact Narrative</h3>
+
+    <h4>Description</h4>
+
+    <p>
+        My ContactService assignment was from my CS 320: Software Test Automation course.
+        It was originally created to operate a simple CRUD (Create, Read, Update, and Delete) 
+        management system to manage a variety of contacts. This application was able to receive inputs
+        from the user, put them through a validation system to see if they're acceptable, and add them 
+        to a single hashmap that can be editted through CRUD methods.
+    </p>
+
+    <h4>Justification</h4>
+
+    <p>
+        I chose this artifact to be included in my ePortfolio as it was an assignment I had initially 
+        struggled with creating on Eclipse due to issues with the application itself. While the original 
+        artifact already has a simple CRUD management system, its first enhancment has many potential components in demonstrating
+        my skills in software development with practices such as validation methods and modifying java classes.
+        To improve this artifact, my first enhancement was the validation logic for the Contact class by adding stronger checks
+        for invalid or null input for all varaibles such as names and addresses, ensuring phone numbers contain
+         only ten digits, and improving duplicate data prevention within the ContactService class. My second enhancement
+        was implementing a multi-index data structure by adding additional HashMap indexes for first names, last names, and
+        phone numbers. These indexes allow the application to retrieve contacts directly instead of searching through every stored contact.
+    </p>
+
+    <h4>Reflection</h4>
+
+    <p>
+        Enhancing this artifact gave me a better understanding of how these small software improvements can 
+        increase its quality significantly. As the old ContactService application met my assignment requirements in CS 320, 
+        reviewing the code helped me find opportunities to make it more practical and secure. Adding search functionalities 
+        required me to think about how data was stored and retrieved while strengthening the current validation reinforced
+        the importance of preventing invalid data from being entered. One challenge I had faced was implementing enough tests to validate each 
+        enhancement I had made is working as intended and that the strengthened validation is throwing exceptions when needed.
+    </p>
+
+    <h4>Course Outcomes</h4>
+
+<p>
+    The enhancements completed for my Contact Service artifact allowed me to
+    demonstrate progress toward several CS 499 course outcomes.
+</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+
+    <tr>
+        <th>Course Outcome</th>
+        <th>Status</th>
+        <th>How This Artifact Demonstrates the Outcome</th>
+    </tr>
+
+    <tr>
+        <td>
+            Design and evaluate computing solutions that solve a given problem
+            using algorithmic principles and computer science practices while
+            managing trade-offs involved in design choices.
+        </td>
+        <td>
+            Completed
+        </td>
+        <td>
+            The implementation of multiple HashMap indexes improved how contact
+            information was organized and retrieved. This enhancement required
+            evaluating the trade-off between simple linear searching and using
+            additional data structures to improve lookup efficiency.
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Demonstrate an ability to use well-founded and innovative
+            techniques, skills, and tools in computing practices for the purpose
+            of implementing computer solutions that deliver value and accomplish
+            industry-specific goals.
+        </td>
+        <td>
+            Completed
+        </td>
+        <td>
+            The artifact was improved by expanding its functionality through
+            stronger validation methods, improved search capabilities, and
+            enhanced data management practices. These improvements demonstrate
+            the ability to maintain and enhance an existing software solution.
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Develop a security mindset that anticipates adversarial exploits in
+            software architecture and designs to expose potential
+            vulnerabilities, mitigate design flaws, and ensure privacy and
+            enhanced security of data and resources.
+        </td>
+        <td>
+            Completed
+        </td>
+        <td>
+            Strengthened validation logic improved the reliability and security
+            of stored contact information by preventing invalid data, rejecting
+            incorrect formats, and reducing potential data integrity issues.
+        </td>
+    </tr>
+
+</table>
+    
+    <br>
+
+    <h3>Enhancement One - Software Design and Engineering</h3>
+
+    <h4>Enhancement Summary</h4>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+
+    <tr>
+        <th>Enhancement</th>
+        <th>Original Limitation</th>
+        <th>Improvement Implemented</th>
+    </tr>
+
+    <tr>
+        <td>Search Functionality</td>
+        <td>
+            Contacts could only be accessed using their unique contact ID,
+            making it difficult to locate contacts by other information.
+        </td>
+        <td>
+            Added search methods that allow contacts to be found by first name,
+            last name, phone number, and other contact information.
+        </td>
+    </tr>
+
+    <tr>
+        <td>Stronger Validation</td>
+        <td>
+            Input validation only checked basic requirements such as length
+            or null values, allowing invalid data such as letters in phone
+            numbers.
+        </td>
+        <td>
+            Improved validation by enforcing numeric phone numbers, rejecting
+            blank fields, and preventing duplicate phone numbers from being
+            added.
+        </td>
+    </tr>
+
+</table>
+
+    <h4>Skills Demonstrated</h4>
+
+    <ul>
+        <li>
+        <strong>Software Enhancement and Maintenance:</strong>
+        Improved an existing application by expanding functionality while
+        maintaining the original design and purpose of the system.
+        </li>
+
+        <li>
+        <strong>Algorithm Implementation:</strong>
+        Applied search algorithms to retrieve contact information using
+        different search criteria, improving usability beyond the original
+        contact ID-based system.
+        </li>
+
+        <li>
+        <strong>Data Validation and Integrity:</strong>
+        Strengthened validation logic to ensure that only properly formatted
+        and accurate information is stored within the application.
+        </li>
+
+        <li>
+        <strong>Problem Solving and Application Design:</strong>
+        Analyzed limitations within an existing software application and
+        implemented practical solutions to improve functionality and user
+        experience.
+        </li>
+    </ul>
+
+    <br>
+
+    <h3>Enhancement Two - Algorithms and Data Structures</h3>
+
+    <h4>Enhancement Summary</h4>
+
+    <p>
+        <!-- Explain the algorithm and data structure enhancements -->
+    </p>
+
+    <h4>Skills Demonstrated</h4>
+
+    <p>
+        <!-- Describe the skills demonstrated -->
+    </p>
+
+    <h4>Course Outcomes</h4>
+
+    <p>
+        <!-- Discuss course outcomes met -->
+    </p>
+
+    <hr>
+
+    <!-- Artifact Two -->
+
+    <h2>Artifact Two - Inventory Application</h2>
+
+    <p>
+        <a href="InventoryApp.zip" download>
+            Download Inventory Application Artifact
+        </a>
+    </p>
+
+    <h3>Artifact Narrative</h3>
+
+    <h4>Description</h4>
+
+    <p>
+        <!-- Describe the artifact here -->
+    </p>
+
+    <h4>Justification</h4>
+
+    <p>
+        <!-- Explain why this artifact was selected -->
+    </p>
+
+    <h4>Reflection</h4>
+
+    <p>
+        <!-- Reflect on the enhancement process -->
+    </p>
+
+    <br>
+
+    <h3>Enhancement Three - Databases</h3>
+
+    <h4>Enhancement Summary</h4>
+
+    <p>
+        <!-- Explain the database enhancements -->
+    </p>
+
+    <h4>Skills Demonstrated</h4>
+
+    <p>
+        <!-- Describe the skills demonstrated -->
+    </p>
+
+    <h4>Course Outcomes</h4>
+
+    <p>
+        <!-- Discuss course outcomes met -->
+    </p>
 
 </body>
 </html>
