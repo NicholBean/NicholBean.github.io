@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,7 +70,7 @@
         my skills in software development with practices such as validation methods and modifying java classes.
         To improve this artifact, my first enhancement was the validation logic for the Contact class by adding stronger checks
         for invalid or null input for all varaibles such as names and addresses, ensuring phone numbers contain
-         only ten digits, and improving duplicate data prevention within the ContactService class. My second enhancement
+        only ten digits, and improving duplicate data prevention within the ContactService class. My second enhancement
         was implementing a multi-index data structure by adding additional HashMap indexes for first names, last names, and
         phone numbers. These indexes allow the application to retrieve contacts directly instead of searching through every stored contact.
     </p>
@@ -87,73 +88,79 @@
 
     <h4>Course Outcomes</h4>
 
-<p>
-    The enhancements completed for my Contact Service artifact allowed me to
-    demonstrate progress toward several CS 499 course outcomes.
-</p>
+    <p>
+        The enhancements completed for my Contact Service artifact allowed me to
+        demonstrate progress toward several CS 499 course outcomes.
+    </p>
 
-<table border="1" cellpadding="8" cellspacing="0">
+    <table border="1" cellpadding="8" cellspacing="0">
 
-    <tr>
-        <th>Course Outcome</th>
-        <th>Status</th>
-        <th>How This Artifact Demonstrates the Outcome</th>
-    </tr>
+        <tr>
+            <th>Course Outcome</th>
+            <th>Status</th>
+            <th>How This Artifact Demonstrates the Outcome</th>
+        </tr>
 
-    <tr>
-        <td>
-            Design and evaluate computing solutions that solve a given problem
-            using algorithmic principles and computer science practices while
-            managing trade-offs involved in design choices.
-        </td>
-        <td>
-            Completed
-        </td>
-        <td>
-            The implementation of multiple HashMap indexes improved how contact
-            information was organized and retrieved. This enhancement required
-            evaluating the trade-off between simple linear searching and using
-            additional data structures to improve lookup efficiency.
-        </td>
-    </tr>
+        <tr>
+            <td>
+                Design and evaluate computing solutions that solve a given problem
+                using algorithmic principles and computer science practices while
+                managing trade-offs involved in design choices.
+            </td>
 
-    <tr>
-        <td>
-            Demonstrate an ability to use well-founded and innovative
-            techniques, skills, and tools in computing practices for the purpose
-            of implementing computer solutions that deliver value and accomplish
-            industry-specific goals.
-        </td>
-        <td>
-            Completed
-        </td>
-        <td>
-            The artifact was improved by expanding its functionality through
-            stronger validation methods, improved search capabilities, and
-            enhanced data management practices. These improvements demonstrate
-            the ability to maintain and enhance an existing software solution.
-        </td>
-    </tr>
+            <td>
+                Completed
+            </td>
 
-    <tr>
-        <td>
-            Develop a security mindset that anticipates adversarial exploits in
-            software architecture and designs to expose potential
-            vulnerabilities, mitigate design flaws, and ensure privacy and
-            enhanced security of data and resources.
-        </td>
-        <td>
-            Completed
-        </td>
-        <td>
-            Strengthened validation logic improved the reliability and security
-            of stored contact information by preventing invalid data, rejecting
-            incorrect formats, and reducing potential data integrity issues.
-        </td>
-    </tr>
+            <td>
+                The implementation of multiple HashMap indexes improved how contact
+                information was organized and retrieved. This enhancement required
+                evaluating the trade-off between simple linear searching and using
+                additional data structures to improve lookup efficiency.
+            </td>
+        </tr>
 
-</table>
-    
+        <tr>
+            <td>
+                Demonstrate an ability to use well-founded and innovative
+                techniques, skills, and tools in computing practices for the purpose
+                of implementing computer solutions that deliver value and accomplish
+                industry-specific goals.
+            </td>
+
+            <td>
+                Completed
+            </td>
+
+            <td>
+                The artifact was improved by expanding its functionality through
+                stronger validation methods, improved search capabilities, and
+                enhanced data management practices. These improvements demonstrate
+                the ability to maintain and enhance an existing software solution.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Develop a security mindset that anticipates adversarial exploits in
+                software architecture and designs to expose potential
+                vulnerabilities, mitigate design flaws, and ensure privacy and
+                enhanced security of data and resources.
+            </td>
+
+            <td>
+                Completed
+            </td>
+
+            <td>
+                Strengthened validation logic improved the reliability and security
+                of stored contact information by preventing invalid data, rejecting
+                incorrect formats, and reducing potential data integrity issues.
+            </td>
+        </tr>
+
+    </table>
+
     <br>
 
     <h3>Enhancement One - Software Design and Engineering</h3>
@@ -162,78 +169,6 @@
 
     <table border="1" cellpadding="8" cellspacing="0">
 
-    <tr>
-        <th>Enhancement</th>
-        <th>Original Limitation</th>
-        <th>Improvement Implemented</th>
-    </tr>
-
-    <tr>
-        <td>Search Functionality</td>
-        <td>
-            Contacts could only be accessed using their unique contact ID,
-            making it difficult to locate contacts by other information.
-        </td>
-        <td>
-            Added search methods that allow contacts to be found by first name,
-            last name, phone number, and other contact information.
-        </td>
-    </tr>
-
-    <tr>
-        <td>Stronger Validation</td>
-        <td>
-            Input validation only checked basic requirements such as length
-            or null values, allowing invalid data such as letters in phone
-            numbers.
-        </td>
-        <td>
-            Improved validation by enforcing numeric phone numbers, rejecting
-            blank fields, and preventing duplicate phone numbers from being
-            added.
-        </td>
-    </tr>
-
-</table>
-
-    <h4>Skills Demonstrated</h4>
-
-    <ul>
-        <li>
-        <strong>Software Enhancement and Maintenance:</strong>
-        Improved an existing application by expanding functionality while
-        maintaining the original design and purpose of the system.
-        </li>
-
-        <li>
-        <strong>Algorithm Implementation:</strong>
-        Applied search algorithms to retrieve contact information using
-        different search criteria, improving usability beyond the original
-        contact ID-based system.
-        </li>
-
-        <li>
-        <strong>Data Validation and Integrity:</strong>
-        Strengthened validation logic to ensure that only properly formatted
-        and accurate information is stored within the application.
-        </li>
-
-        <li>
-        <strong>Problem Solving and Application Design:</strong>
-        Analyzed limitations within an existing software application and
-        implemented practical solutions to improve functionality and user
-        experience.
-        </li>
-    </ul>
-
-    <br>
-
-    <h3>Enhancement Two - Algorithms and Data Structures</h3>
-
-        <h4>Enhancement Summary</h4>
-
-        <table border="1" cellpadding="8" cellspacing="0">
-
         <tr>
             <th>Enhancement</th>
             <th>Original Limitation</th>
@@ -241,31 +176,36 @@
         </tr>
 
         <tr>
-            <td>Multi-Index Data Structure</td>
             <td>
-            The original application relied primarily on the contact ID to
-            locate contacts. Searching for a contact using information such
-            as a first name or last name would require searching through the
-            stored contacts.
+                Search Functionality
             </td>
-        <td>
-            Added and maintained additional HashMap indexes for contact ID,
-            first name, last name, and phone number. These indexes allow the
-            application to locate contacts more efficiently using different
-            search criteria.
-        </td>
+
+            <td>
+                Contacts could only be accessed using their unique contact ID,
+                making it difficult to locate contacts by other information.
+            </td>
+
+            <td>
+                Added search methods that allow contacts to be found by first name,
+                last name, phone number, and other contact information.
+            </td>
         </tr>
 
         <tr>
-            <td>Search Performance</td>
             <td>
-            Searching through the contact collection for different attributes
-            could require examining multiple contacts before finding a match.
+                Stronger Validation
             </td>
+
             <td>
-            Improved search operations by allowing the application to access
-            contacts through the appropriate index rather than repeatedly
-            searching through the entire collection.
+                Input validation only checked basic requirements such as length
+                or null values, allowing invalid data such as letters in phone
+                numbers.
+            </td>
+
+            <td>
+                Improved validation by enforcing numeric phone numbers, rejecting
+                blank fields, and preventing duplicate phone numbers from being
+                added.
             </td>
         </tr>
 
@@ -276,28 +216,113 @@
     <ul>
 
         <li>
-        <strong>Data Structure Design:</strong>
-        Designed and implemented a multi-index data structure using multiple
-        HashMaps to organize contact information by different attributes.
+            <strong>Software Enhancement and Maintenance:</strong>
+            Improved an existing application by expanding functionality while
+            maintaining the original design and purpose of the system.
         </li>
 
         <li>
-        <strong>Algorithm Optimization:</strong>
-        Improved search operations by using appropriate data structures to
-        reduce the need for repeated searches through the contact collection.
+            <strong>Algorithm Implementation:</strong>
+            Applied search algorithms to retrieve contact information using
+            different search criteria, improving usability beyond the original
+            contact ID-based system.
         </li>
 
         <li>
-        <strong>Problem Solving:</strong>
-        Identified limitations in the original single-index system and
-        developed a multi-index solution to improve the application's
-        performance and functionality.
+            <strong>Data Validation and Integrity:</strong>
+            Strengthened validation logic to ensure that only properly formatted
+            and accurate information is stored within the application.
         </li>
 
         <li>
-        <strong>Data Management:</strong>
-        Maintained multiple indexes while keeping contact information
-        consistent across the application's data structures.
+            <strong>Problem Solving and Application Design:</strong>
+            Analyzed limitations within an existing software application and
+            implemented practical solutions to improve functionality and user
+            experience.
+        </li>
+
+    </ul>
+
+    <br>
+
+    <h3>Enhancement Two - Algorithms and Data Structures</h3>
+
+    <h4>Enhancement Summary</h4>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+
+        <tr>
+            <th>Enhancement</th>
+            <th>Original Limitation</th>
+            <th>Improvement Implemented</th>
+        </tr>
+
+        <tr>
+            <td>
+                Multi-Index Data Structure
+            </td>
+
+            <td>
+                The original application relied primarily on the contact ID to
+                locate contacts. Searching for a contact using information such
+                as a first name or last name would require searching through the
+                stored contacts.
+            </td>
+
+            <td>
+                Added and maintained additional HashMap indexes for contact ID,
+                first name, last name, and phone number. These indexes allow the
+                application to locate contacts more efficiently using different
+                search criteria.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Search Performance
+            </td>
+
+            <td>
+                Searching through the contact collection for different attributes
+                could require examining multiple contacts before finding a match.
+            </td>
+
+            <td>
+                Improved search operations by allowing the application to access
+                contacts through the appropriate index rather than repeatedly
+                searching through the entire collection.
+            </td>
+        </tr>
+
+    </table>
+
+    <h4>Skills Demonstrated</h4>
+
+    <ul>
+
+        <li>
+            <strong>Data Structure Design:</strong>
+            Designed and implemented a multi-index data structure using multiple
+            HashMaps to organize contact information by different attributes.
+        </li>
+
+        <li>
+            <strong>Algorithm Optimization:</strong>
+            Improved search operations by using appropriate data structures to
+            reduce the need for repeated searches through the contact collection.
+        </li>
+
+        <li>
+            <strong>Problem Solving:</strong>
+            Identified limitations in the original single-index system and
+            developed a multi-index solution to improve the application's
+            performance and functionality.
+        </li>
+
+        <li>
+            <strong>Data Management:</strong>
+            Maintained multiple indexes while keeping contact information
+            consistent across the application's data structures.
         </li>
 
     </ul>
@@ -318,9 +343,11 @@
                 using algorithmic principles and computer science practices while
                 managing the trade-offs involved in design choices.
             </td>
+
             <td>
                 Completed
             </td>
+
             <td>
                 The multi-index data structure demonstrates the use of appropriate
                 data structures to improve contact retrieval. The enhancement also
@@ -336,9 +363,11 @@
                 of implementing computer solutions that deliver value and
                 accomplish industry-specific goals.
             </td>
+
             <td>
                 Completed
             </td>
+
             <td>
                 The multi-index approach expanded the original application's
                 capabilities and improved its ability to efficiently retrieve
@@ -346,7 +375,8 @@
             </td>
         </tr>
 
-</table>
+    </table>
+
     <hr>
 
     <!-- Artifact Two -->
@@ -364,19 +394,26 @@
     <h4>Description</h4>
 
     <p>
-        <!-- Describe the artifact here -->
+        My InventoryApp was a project made for my CS 360 course, Mobile Architecture and Programming. Out of the options I was given, I
+        made an inventory app that was capable of using a password-protected login system, CRUD operations for inventory management, and
+        has a notification system when an item's stock is running low.
     </p>
 
     <h4>Justification</h4>
 
     <p>
-        <!-- Explain why this artifact was selected -->
+        This artifact was selected to demonstrate my skills in another application that uses a different platform like Android Studios. 
+        I specifically chose my inventory app because I knew there were a lot of improvements that I could make to showcase my enhanced
+        skills like strengthening password protection with a hashed encryption and an inventory system that monitors changes made to 
+        an item.
     </p>
 
     <h4>Reflection</h4>
 
     <p>
-        <!-- Reflect on the enhancement process -->
+        Enhancing my inventory application gave me a better understanding on how databases are utilized and expanded to support more realistic 
+        features on current apps. While the original application met its requirements for the course by creating a simple login system, basic CRUD management, 
+        notification system, I learned how to add additional database tables and stronger validation that can improve its functionality.
     </p>
 
     <br>
@@ -385,21 +422,197 @@
 
     <h4>Enhancement Summary</h4>
 
-    <p>
-        <!-- Explain the database enhancements -->
-    </p>
+    <table border="1" cellpadding="8" cellspacing="0">
+
+        <tr>
+            <th>Enhancement</th>
+            <th>Original Limitation</th>
+            <th>Improvement Planned/Implemented</th>
+        </tr>
+
+        <tr>
+            <td>
+                Increased Validation Security
+            </td>
+
+            <td>
+                The original login system stores user passwords directly in the
+                database and does not provide stronger protections against
+                duplicate usernames.
+            </td>
+
+            <td>
+                Improved login security by implementing password hashing and
+                strengthening validation to prevent duplicate usernames from
+                being stored in the database.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Inventory History
+            </td>
+
+            <td>
+                The original inventory application uses a basic CRUD system and
+                does not keep a record of changes made to inventory items.
+            </td>
+
+            <td>
+                Added an inventory history system that records changes made to
+                products, including what product was changed, the amount changed,
+                and when the change occurred.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Inventory Categories
+            </td>
+
+            <td>
+                Products in the original application are not organized into
+                categories, making it more difficult to group and manage different
+                types of inventory.
+            </td>
+
+            <td>
+                Added product categories such as food, electronics, and clothing.
+                This expands the database structure and provides a more organized
+                way to manage inventory information.
+            </td>
+        </tr>
+
+    </table>
 
     <h4>Skills Demonstrated</h4>
 
-    <p>
-        <!-- Describe the skills demonstrated -->
-    </p>
+    <ul>
+
+        <li>
+            <strong>Database Design:</strong>
+            Improved the structure of the inventory application's databases by
+            expanding how user, inventory, history, and category information can
+            be stored and organized.
+        </li>
+
+        <li>
+            <strong>Secure Data Storage:</strong>
+            Applied security practices such as password hashing to reduce the risk
+            of storing sensitive user information in an insecure format.
+        </li>
+
+        <li>
+            <strong>Data Integrity:</strong>
+            Strengthened validation and database management practices to help
+            prevent duplicate usernames and maintain accurate inventory records.
+        </li>
+
+        <li>
+            <strong>Database Expansion:</strong>
+            Increased the complexity of the original application by incorporating
+            inventory history and product categories into its database design.
+        </li>
+
+        <li>
+            <strong>Problem Solving:</strong>
+            Identified limitations in the original inventory application and
+            designed database improvements that provide more realistic and useful
+            inventory management functionality.
+        </li>
+
+    </ul>
 
     <h4>Course Outcomes</h4>
 
-    <p>
-        <!-- Discuss course outcomes met -->
-    </p>
+    <table border="1" cellpadding="8" cellspacing="0">
+
+        <tr>
+            <th>Course Outcome</th>
+            <th>Status</th>
+            <th>How This Enhancement Demonstrates the Outcome</th>
+        </tr>
+
+        <tr>
+            <td>
+                Design, develop, and deliver professional-quality oral, written,
+                and visual communications that are coherent, technically sound,
+                and appropriately adapted to specific audiences and contexts.
+            </td>
+
+            <td>
+                Partially Demonstrated
+            </td>
+
+            <td>
+                The database enhancements can be explained and documented through
+                the artifact narrative and ePortfolio. However, this outcome is
+                more directly demonstrated through the code review, written
+                narratives, and overall presentation of the ePortfolio.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Design and evaluate computing solutions that solve a given problem
+                using algorithmic principles and computer science practices while
+                managing the trade-offs involved in design choices.
+            </td>
+
+            <td>
+                Partially Demonstrated
+            </td>
+
+            <td>
+                The inventory history and category enhancements require decisions
+                about how information should be organized and stored within the
+                application's databases. However, this artifact primarily
+                demonstrates database design rather than algorithms and data
+                structures.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Demonstrate an ability to use well-founded and innovative
+                techniques, skills, and tools in computing practices for the purpose
+                of implementing computer solutions that deliver value and
+                accomplish industry-specific goals.
+            </td>
+
+            <td>
+                Completed
+            </td>
+
+            <td>
+                The enhancements expand the original inventory application with
+                more realistic database functionality, including inventory history,
+                product categories, and improved user account management.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Develop a security mindset that anticipates adversarial exploits in
+                software architecture and designs to expose potential
+                vulnerabilities, mitigate design flaws, and ensure privacy and
+                enhanced security of data and resources.
+            </td>
+
+            <td>
+                Completed
+            </td>
+
+            <td>
+                Password hashing and stronger username validation improve the
+                security of user information and help protect the integrity of the
+                application's database. These changes demonstrate consideration
+                of security vulnerabilities when designing database systems.
+            </td>
+        </tr>
+
+    </table>
 
 </body>
+
 </html>
