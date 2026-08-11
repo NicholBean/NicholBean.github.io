@@ -230,24 +230,142 @@
 
     <h3>Enhancement Two - Algorithms and Data Structures</h3>
 
-    <h4>Enhancement Summary</h4>
+        <h4>Enhancement Summary</h4>
 
-    <p>
-        <!-- Explain the algorithm and data structure enhancements -->
-    </p>
+        <table border="1" cellpadding="8" cellspacing="0">
+
+        <tr>
+            <th>Enhancement</th>
+            <th>Original Limitation</th>
+            <th>Improvement Implemented</th>
+        </tr>
+
+        <tr>
+            <td>Multi-Index Data Structure</td>
+            <td>
+            The original application relied primarily on the contact ID to
+            locate contacts. Searching for a contact using information such
+            as a first name or last name would require searching through the
+            stored contacts.
+            </td>
+        <td>
+            Added and maintained additional HashMap indexes for contact ID,
+            first name, last name, and phone number. These indexes allow the
+            application to locate contacts more efficiently using different
+            search criteria.
+        </td>
+        </tr>
+
+        <tr>
+            <td>Search Performance</td>
+            <td>
+            Searching through the contact collection for different attributes
+            could require examining multiple contacts before finding a match.
+            </td>
+            <td>
+            Improved search operations by allowing the application to access
+            contacts through the appropriate index rather than repeatedly
+            searching through the entire collection.
+            </td>
+        </tr>
+
+    </table>
 
     <h4>Skills Demonstrated</h4>
 
-    <p>
-        <!-- Describe the skills demonstrated -->
-    </p>
+    <ul>
+
+        <li>
+        <strong>Data Structure Design:</strong>
+        Designed and implemented a multi-index data structure using multiple
+        HashMaps to organize contact information by different attributes.
+        </li>
+
+        <li>
+        <strong>Algorithm Optimization:</strong>
+        Improved search operations by using appropriate data structures to
+        reduce the need for repeated searches through the contact collection.
+        </li>
+
+        <li>
+        <strong>Problem Solving:</strong>
+        Identified limitations in the original single-index system and
+        developed a multi-index solution to improve the application's
+        performance and functionality.
+        </li>
+
+        <li>
+        <strong>Data Management:</strong>
+        Maintained multiple indexes while keeping contact information
+        consistent across the application's data structures.
+        </li>
+
+    </ul>
 
     <h4>Course Outcomes</h4>
 
-    <p>
-        <!-- Discuss course outcomes met -->
-    </p>
+    <table border="1" cellpadding="8" cellspacing="0">
 
+        <tr>
+            <th>Course Outcome</th>
+            <th>Status</th>
+            <th>How This Enhancement Demonstrates the Outcome</th>
+        </tr>
+
+        <tr>
+            <td>
+                Design and evaluate computing solutions that solve a given problem
+                using algorithmic principles and computer science practices while
+                managing the trade-offs involved in design choices.
+            </td>
+            <td>
+                Completed
+            </td>
+            <td>
+                The multi-index data structure demonstrates the use of appropriate
+                data structures to improve contact retrieval. The enhancement also
+                required considering the trade-off of maintaining additional
+                indexes in exchange for faster search operations.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Demonstrate an ability to use well-founded and innovative
+                techniques, skills, and tools in computing practices for the purpose
+                of implementing computer solutions that deliver value and
+                accomplish industry-specific goals.
+            </td>
+            <td>
+                Completed
+            </td>
+            <td>
+                The multi-index approach expanded the original application's
+                capabilities and improved its ability to efficiently retrieve
+                contact information using different search criteria.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Develop a security mindset that anticipates adversarial exploits in
+                software architecture and designs to expose potential
+                vulnerabilities, mitigate design flaws, and ensure privacy and
+                enhanced security of data and resources.
+            </td>
+            <td>
+                Partially Demonstrated
+            </td>
+            <td>
+                The multi-index data structure primarily focuses on performance and
+                data organization rather than security. However, maintaining
+                consistent indexes helps preserve data integrity within the
+                application. The stronger security-related improvements are more
+                directly demonstrated by Enhancement One.
+            </td>
+        </tr>
+
+</table>
     <hr>
 
     <!-- Artifact Two -->
