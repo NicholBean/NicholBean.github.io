@@ -77,6 +77,7 @@ a[download] {
     background-color: #0066cc;
     color: white;
     border-radius: 5px;
+    text-align: center;
 }
 
 a[download]:hover {
