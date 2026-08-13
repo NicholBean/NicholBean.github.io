@@ -12,7 +12,7 @@ My completed ePortfolio can be viewed here:
 
 ### Artifact One - Contact Service
 
-The ContactService artifact was originally developed for CS 320: Software Test Automation. The application uses Java to manage contact information through CRUD operations.
+The ContactService artifact was originally developed in CS 320: Software Test Automation. This application uses Java to manage contact information through CRUD operations and tests them through JavaScript.
 
 For CS 499, I enhanced the artifact by:
 
@@ -23,11 +23,9 @@ For CS 499, I enhanced the artifact by:
 - Implementing a multi-index data structure using HashMaps
 - Improving contact retrieval efficiency
 
-This artifact demonstrates skills in software engineering, software maintenance, algorithms, data structures, validation, and problem solving.
-
 ### Artifact Two - Inventory Application
 
-The InventoryApp artifact was originally developed for CS 360: Mobile Architecture and Programming. The application was created using Android Studio and provides a login system, inventory management, CRUD functionality, and low-stock notifications.
+The InventoryApp artifact was originally developed for CS 360: Mobile Architecture and Programming. This  application was created using Android Studio and has a login system, inventory management, CRUD functionality, and a low-stock notifications system that requires permission.
 
 For CS 499, I enhanced the artifact by:
 
@@ -37,8 +35,6 @@ For CS 499, I enhanced the artifact by:
 - Adding inventory categories
 - Expanding database functionality
 - Improving data integrity and security
-
-This artifact demonstrates skills in database design, mobile application development, data security, validation, and data management.
 
 ## Skills Demonstrated
 
